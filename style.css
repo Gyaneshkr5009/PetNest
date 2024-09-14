@@ -194,19 +194,71 @@ h1, h2{
 }
 
 /* Footer */
-#footer{
-    padding: 5% 15%;
+#footer {
+    padding-top: 40px;
     text-align: center;
+    background-color: #f8f9fa; /* Light grey background */
+    border-top: 1px solid #ddd; /* Adds a subtle top border */
 }
 
-/* Hierarchical architecture*/
-#footer .container-fluid{
-    padding: 3% 15% 5%;
+/* Container-fluid styling */
+#footer .container-fluid {
+    margin: 0 auto;
 }
 
+/* Social icons styling */
+.social-icons {
+    margin-bottom: 20px;
+}
+
+/* Social icon spacing and hover effect */
 .social-icon {
-    margin: 20px 10px;
+    margin: 0 15px;
+    font-size: 2rem; /* Increased size for better visibility */
+    color: #333;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    text-decoration: none;
 }
+
+/* Hover effect for social icons */
+.social-icon:hover {
+    color: #007bff; /* Blue color on hover */
+    transform: scale(1.1); /* Slightly increase size on hover */
+}
+
+/* Styling for the text in the footer */
+#footer p {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+/* Contact button styling */
+.contact-btn {
+    margin:2% 0%;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    border: 2px solid #007bff; /* Blue border */
+    background-color: transparent; /* Transparent background */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Button text link */
+.contact-btn a {
+    text-decoration: none;
+    color: #007bff; /* Blue text */
+}
+
+/* Button hover effect */
+.contact-btn:hover {
+    background-color: #007bff;
+}
+
+.contact-btn:hover a {
+    color: #fff; /* White text on hover */
+}
+
+
   
 @media (max-width: 996px) {
 

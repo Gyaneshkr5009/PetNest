@@ -143,3 +143,17 @@ button:hover {
 .register p a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 850px) {
+    .login-form::before{
+        top: -13px;
+        left: initial;
+        right: 70px;
+    }
+}
+@media (max-width: 480px) {
+    .container {
+        padding: 1.5rem;
+      }
+}
+  

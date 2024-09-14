@@ -114,6 +114,15 @@ textarea.input {
   overflow-y: auto;
 }
 
+.input-container i {
+  position:absolute;
+  right: 20px; 
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fafafa;
+  font-size: 1rem; 
+}
+
 .input-container label {
   position: absolute;
   top: 50%;
